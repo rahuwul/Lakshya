@@ -1,0 +1,39 @@
+.mySwiper{
+    width: 25rem;
+    position: relative;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    align-content: center;
+   
+   
+}
+@media not all and (min-width: 955px){
+    #non-swipe{
+        display: none;
+    }
+    #swiper{
+        display: flex;
+    }
+    #card:hover{
+        box-shadow: none;
+       
+      }
+}
+.swiper-pagination-bullet{
+  
+   width: 40px;
+   height: 10px;
+   border-radius: 25px;
+   background-color: #962be863;
+}
+.swiper-pagination{
+    position: absolute;
+}
+.swiper-button-prev{
+   
+    color: #952BE8;
+}
+.swiper-button-next{
+    color: #952BE8;
+}
