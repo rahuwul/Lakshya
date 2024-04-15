@@ -20,7 +20,7 @@ export default function Register({onClose,onClose2}) {
      <div id='logincomp' className='pt-8 fixed inset-0 bg-black bg-opacity-70 backdrop-blur-sm '>
       <div onClick={onClose} className='flex items-center justify-center sm:hidden'><i class="fa-solid fa-xmark fa-2xl" style={{color:"#ffffff"}}></i></div>
       <div  ref={modalRef} onClick={closeModal} className='flex items-center justify-center max-sm:pt-4'>
-      <div  className='w-[40rem] h-[43rem] max-sm:h-[47rem] max-sm:w-[24rem] rounded-3xl bg-white flex flex-col items-center justify-center py-48 px-12 '>
+      <div  className='w-[35rem] h-[43rem] max-sm:h-[47rem] max-sm:w-[24rem] rounded-3xl bg-white flex flex-col items-center justify-center py-48 px-12 '>
       <div>
         <h1 id='logintext' className='text-md bg-white text-center rounded-t-lg px-6 border-2 border-black'><span className='text-[#952BE8]'>Create</span> a new account.</h1>
       </div>
